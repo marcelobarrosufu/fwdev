@@ -110,7 +110,7 @@ O Reset Handler é o primeiro trecho de código executado e é responsável pela
 
 - Inicialização do sistema de clock e periféricos básicos.
 - Cópia de dados da seção .data da flash para a RAM.
-- Zeragem da seção .bss (variáveis não inicializadas).
+- Inicialização cmo zero da seção .bss (variáveis não inicializadas).
 - Eventualmente, configuração da pilha secundária (PSP) e de vetores de interrupção alternativos.
 - Chamada da função principal do sistema (main()).
 
